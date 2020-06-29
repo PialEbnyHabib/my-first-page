@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(246, 246, 244);
+}
+
+
+#car{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 600px;
+   
+
+}
+
+.menu{
+    background-color: #e6e6e6 ;
+     overflow: auto;
+     width: 100%;
+     height: 100px;
+    
+
+}
+
+.menu ul{
+
+    margin: 40px 80px 5px 850px;
+    padding: 0px;
+    list-style: none ;
+    line height: 60px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    margin: 10px 10px 10px 10px ;
+    color: black;
+    font-size: 22px;
+    padding: 5px ;
+    font-family: sans-serif;
+     text-decoration: none;
+     letter-spacing: 1px;
+}
+
+.menu ul li a:hover{
+
+    color: darkred;
+}
+
+#s {  
+    border: black;
+    
+    margin-left: 1200px;
+}
